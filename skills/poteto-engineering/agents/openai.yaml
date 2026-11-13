@@ -1,0 +1,13 @@
+interface:
+  display_name: Poteto 工程闭环
+  short_description: 把历史代码治理、机器约束、真实验证和交付证据落实成工程闭环
+  default_prompt: 使用 $poteto-engineering 处理当前项目：先判断工程环境是否可靠，再完成改动、运行验证，并交付可检查的证据。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
