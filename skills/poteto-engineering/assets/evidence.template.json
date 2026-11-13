@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "task": "填写真实任务",
+  "source": {"revision": "填写实际版本", "worktree": "dirty", "patch_sha256": ""},
+  "environment": "填写实际运行环境",
+  "captured_at": "填写真实 ISO-8601 时间及偏移",
+  "acceptance": [
+    {"id": "A1", "description": "填写可观察的验收条件", "required": true, "requires_visual": false, "check_ids": ["C1"]}
+  ],
+  "checks": [
+    {"id": "C1", "status": "not-run", "reason": "尚未执行", "mode": "command", "procedure": "填写实际执行命令、目录及必要输入", "exit_code": null, "source_revision": "", "patch_sha256": "", "observed": "", "artifact_ids": ["E1"]}
+  ],
+  "artifacts": [
+    {"id": "E1", "type": "log", "path": "checks.log", "sha256": ""}
+  ]
+}
