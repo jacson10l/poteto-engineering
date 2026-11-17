@@ -16,6 +16,8 @@ A practical, evidence-driven engineering skill inspired by the principles shared
 
 核心流程：**定义验收 → 建立基线/复现 → 实施改动 → 真实验证 → 交付证据 → 防止复发**。
 
+新版加入信任金字塔、Feature Map、证据优先评审和发布后自动回归试点。
+
 ## 获取与使用
 
 ```bash
@@ -46,6 +48,8 @@ git clone https://github.com/jacson10l/poteto-engineering.git
 | [verification.md](skills/poteto-engineering/references/verification.md) | 实测、UI 证据、性能与形式化验证边界 |
 | [delivery.md](skills/poteto-engineering/references/delivery.md) | 交付状态、受控自动化与质量指标口径 |
 | [provenance.md](skills/poteto-engineering/references/provenance.md) | 来源、原创适配与数字核验状态 |
+| [Feature Map 模板](skills/poteto-engineering/assets/feature-map.template.md) | 用用户术语记录功能入口、操作、预期状态和证据 |
+| [演讲实践案例](skills/poteto-engineering/references/talk-case-study.md) | Dune、TLA+、Lean、Bombadil 和发布后回归 |
 | [验证契约模板](skills/poteto-engineering/assets/verification-contract.template.md) | 固定启动、操作、断言、取证和清理入口 |
 | [证据清单模板](skills/poteto-engineering/assets/evidence.template.json) | 将验收条件关联到检查与证据文件 |
 | [validate_evidence.py](skills/poteto-engineering/scripts/validate_evidence.py) | 校验清单、引用、版本标签及文件 SHA-256 |
